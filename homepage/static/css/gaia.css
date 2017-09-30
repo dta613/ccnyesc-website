@@ -640,12 +640,18 @@ a.carousel-control span.fa {
   padding: 10px;
 }
 
-.btn-primary,
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle,
+.btn-primary {
+  border-color: #0080ff;
+  color: #D8E6E7;
+  background-color: #0080ff;
+}
+
 .navbar .navbar-nav > li > a.btn-primary {
   border-color: #c5a47e;
   color: #c5a47e;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle,
+/*.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle,*/
 .navbar .navbar-nav > li > a.btn-primary:hover,
 .navbar .navbar-nav > li > a.btn-primary:focus,
 .navbar .navbar-nav > li > a.btn-primary:active,
